@@ -1,0 +1,15 @@
+python deepstream_test_3.py file://'/opt/nvidia/deepstream/deepstream-5.0/sources/apps/sample_apps/deepstream-boat-test3-batch2/chuanID_boat_huaiyin_night1.mp4' 
+
+LD_PRELOAD=./libmyplugins.so python deepstream_test_3.py file://'/opt/nvidia/deepstream/deepstream-5.0/sources/apps/python_apps/deepstream-test3-mine/chuanID_boat_huaiyin_night1.mp4' 
+
+LD_PRELOAD=./yolov5/libmyplugins.so python deepstream_test_3.py rtsp://admin:admin123@192.168.2.190:554/main
+
+LD_PRELOAD=./libmyplugins.so python deepstream_test_3.py file://'/opt/nvidia/deepstream/deepstream-5.0/sources/apps/sample_apps/deepstream-car-test3-batch1/daolu1.avi' 
+
+LD_PRELOAD=./libmyplugins.so python deepstream_test_3.py rtsp://admin:admin123@192.168.2.190:554/main
+
+
+
+
+
+
